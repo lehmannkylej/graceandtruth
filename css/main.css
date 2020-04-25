@@ -3,8 +3,16 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
+:root {
+  --blue-lt: rgba(113, 161, 213, 1);
+  --white: rgb(255, 255, 255, 1);
+}
+
+
 body {
   padding-top: 56px;
+  background-color: var(--blue-lt);
 }
 
 .carousel-item {
@@ -19,4 +27,11 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+
+
+.navbar-brand,
+.nav-link {
+  color: var(--white);
 }
